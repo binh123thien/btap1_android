@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <View
+            android:background="@drawable/duongvien"
+            android:layout_weight="1"
+            android:id="@+id/View_1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            >
+        </View>
+
+        <View
+            android:id="@+id/View_2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF6666"></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <View
+            android:layout_weight="1"
+            android:id="@+id/View_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
+        </View>
+
+        <View
+            android:layout_weight="1"
+            android:id="@+id/View_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CCFF66">
+        </View>
+
+        <View
+            android:id="@+id/View_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFCC"></View>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="400dp"
+        android:layout_height="21dp"
+        android:max="100"
+        android:secondaryProgress="0"
+        />
+
+</LinearLayout>
+

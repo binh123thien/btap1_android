@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lê Minh Hải"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        >
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
